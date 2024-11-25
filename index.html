@@ -81,7 +81,7 @@
                     <h2 class="typed-text-output d-inline"></h2>
                     <div class="typed-text d-none">Java Developer, Web Developer</div>
                     <div class="d-flex align-items-center pt-5">
-                        <a href="img/Resume-All-in one.pdf" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <a href="img/Resume-All-in-one.pdf" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://youtu.be/LXb3EKWsInQ?si=prSJNMZvqQPJUMmC" data-bs-target="#videoModal">
                             <span></span>
@@ -95,27 +95,24 @@
             </div>
         </div>
     </div>
-    <!-- Header End -->
-
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
+    
+    <!-- Video Modal -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <h5 class="modal-title" id="videoModalLabel">Video</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
                     <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
+                        <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
     <!-- Video Modal End -->
 
 
